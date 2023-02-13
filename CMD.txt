@@ -1,0 +1,27 @@
+ php -S  localhost:9109 -t public/
+php artisan make:notification AddNewCongeNotification
+php artisan make:notification StatusUpdate
+php artisan make:notification UpdateDemandeConge
+role -> Manager
+
+
+permissions:
+
+Espace gestion des demandes
+Espace principal
+Congés et Autorisations
+Etat des Demandes Congés
+Edit Demande Congé
+Changement Statut
+
+
+
+role -> USER
+permissions:
+
+Espace gestion des demandes
+Espace principal
+Congés et Autorisations
+Etat des Demandes Congés
+Edit Demande Congé
+Supp PJ
